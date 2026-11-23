@@ -249,7 +249,8 @@ const wrapperStyle = computed(() => {
     ...mainStyle.value,
   };
   if (background.startsWith("http")) {
-    style.background = `url(${background})`;
+    style.backgroundColor = "black";
+    style.backgroundImage = `url(${JSON.stringify(background)})`;
   } else {
     style.background = background;
   }

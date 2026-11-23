@@ -4,7 +4,7 @@ import { userRegister } from "../userApi";
 
 /**
  * 用户注册命令
- * @author yupi
+ * @author HAKU
  */
 const registerCommand: CommandType = {
   func: "register",
@@ -12,21 +12,21 @@ const registerCommand: CommandType = {
   options: [
     {
       key: "username",
-      desc: "用户名",
+      desc: "用户名（3 至 32 个英文字母）",
       alias: ["u"],
       type: "string",
       required: true,
     },
     {
       key: "password",
-      desc: "密码",
+      desc: "密码（8 至 14 位，须包含英文字母和数字，可使用半角符号）",
       alias: ["p"],
       type: "string",
       required: true,
     },
     {
       key: "email",
-      desc: "邮箱",
+      desc: "主流邮箱（如 QQ、163、Gmail、Outlook）",
       alias: ["e"],
       type: "string",
       required: true,

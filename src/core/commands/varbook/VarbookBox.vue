@@ -52,7 +52,7 @@ getNamedVariables(searchText.value)
       : (output.text = msg);
   })
   .catch((err: any) => {
-    output.text = "服务器扛不住了，请稍后再试";
+    output.text = "此功能api网站已关闭，无法使用";
   })
   .finally(() => {
     loadOK.value = true;

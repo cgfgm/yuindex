@@ -5,11 +5,11 @@ import myAxios from "../../../../plugins/myAxios";
 
 /**
  * 切换终端背景
- * @author yupi
+ * @author HAKU
  */
 const backgroundCommand: CommandType = {
   func: "background",
-  name: "切换终端背景",
+  name: "切换终端背景(随机功能已失效，请添加图片链接参数)",
   alias: ["bg"],
   params: [
     {

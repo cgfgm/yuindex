@@ -2,11 +2,11 @@ import { CommandType } from "../../command";
 
 /**
  * 查梗（小鸡词典）命令
- * @author yupi
+ * @author HAKU
  */
 const gengCommand: CommandType = {
   func: "geng",
-  name: "梗搜索",
+  name: "梗搜索(已失效)",
   alias: ["xiaoji"],
   params: [
     {

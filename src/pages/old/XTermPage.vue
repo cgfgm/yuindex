@@ -42,7 +42,8 @@ const initXTerm = () => {
     term.write(promptWords);
   };
 
-  term.writeln("Welcome to YuIndex，coolest browser index for geeks!");
+  term.writeln("Welcome to Miku land,i am Miku desu~!");
+  term.writeln("Not the project’s actual developer. Hakurei: https://github.com/Hakurei");
   term.writeln("Author coder_yupi: https://github.com/liyupi");
   term.prompt();
 

@@ -1,19 +1,19 @@
 /**
  * 默认配置
- * @author yupi
+ * @author HAKU
  */
 module.exports = {
   redisConfig: {
     host: "localhost",
     port: "6379",
-    password: "123456",
+    password: "2339HAKU",
     db: 2,
   },
   // MySQL 配置
   dbConfig: {
-    database: "yuindex",
+    database: "HAKU",
     username: "root",
-    password: "123456",
+    password: "2339HAKU",
     host: "localhost",
     port: 3306,
   },

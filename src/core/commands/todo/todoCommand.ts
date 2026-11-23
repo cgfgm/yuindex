@@ -5,7 +5,7 @@ import addCommand from "./subCommands/addCommand";
 
 /**
  * 待办事项命令
- * @author yupi
+ * @author HAKU
  */
 const todoCommand: CommandType = {
   func: "todo",

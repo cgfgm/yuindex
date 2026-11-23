@@ -6,7 +6,7 @@ import { CommandType } from "../../command";
  */
 const fsearchCommand: CommandType = {
   func: "fsearch",
-  name: "F搜",
+  name: "F搜(已失效)",
   alias: ["fs", "ff", "fsou"],
   params: [
     {
